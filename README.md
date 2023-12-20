@@ -27,7 +27,7 @@ To use Jsonify Web Player, simply follow these steps:
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/jsonify-web-player.git
+   git clone https://github.com/daabcafe/jsonify.git
    ```
 2. Open the index.html file in your preferred web browser.
 3. Explore the player interface, load your media files, and enjoy the seamless playback experience.
