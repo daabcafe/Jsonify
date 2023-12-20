@@ -516,7 +516,7 @@ function changeVolume(){
 }
 function changeCurrentTime(event){
     var porcentaje = Math.floor((event.offsetX / this.offsetWidth) * 100);
-     DOM.elementoMultimedia.currentTime  = DOM.elementoMultimedia.duration*(porcentaje/100);
+    DOM.elementoMultimedia.currentTime  = DOM.elementoMultimedia.duration*(porcentaje/100);
 }
 
 //Función que pasa un numero de segundos a formato h:m:s
