@@ -1,0 +1,34 @@
+//Light
+
+$bg_color: #EEEEEE;
+$text_color: #111;
+$primary_color: #FF006E;
+$secondary_color: #FBA107;
+$logo: "../img/logo_200x200.png";
+$bg_img: "../img/bg-light.png";
+//Dark
+
+$bg_color--dark: #111;
+$text_color--dark: #EEEEEE;
+$primary_color--dark: #FBA107;
+$secondary_color--dark: #FF006E;
+$logo--dark: "../img/logo_200x200--Dark.png";
+$bg_img--dark: "../img/bg-dark.png";
+
+.theme-light{
+    --primary_color: #{$primary_color};
+    --secondary_color: #{$secondary_color};
+    --bg_color: #{$bg_color};
+    --text_color: #{$text_color};
+    --logo: #{"url("$logo")"};
+    --bg_img: #{"url("$bg_img")"};
+}
+
+.theme-dark{
+    --primary_color: #{$primary_color--dark};
+    --secondary_color: #{$secondary_color--dark};
+    --bg_color: #{$bg_color--dark};
+    --text_color: #{$text_color--dark};
+    --logo: #{"url("$logo--dark")"};
+    --bg_img: #{"url("$bg_img--dark")"};
+}
